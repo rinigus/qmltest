@@ -29,6 +29,14 @@ Offline (requires OSM Scout Server running on the same device):
 `qmlscene -platform wayland map_mapboxgl_offline.qml`
 
 
+For unofficial MapboxGL QML bindings, one can use 
+
+```
+export MAPBOX_ACCESS_TOKEN=<your token>
+qmlscene -platform wayland map_mapboxglqml.qml
+```
+
+
 ## Kirigami
 
 For testing Kirigami, use Kirigami Gallery application.
