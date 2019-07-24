@@ -12,6 +12,7 @@ Window {
         anchors.fill: parent
         center: QtPositioning.coordinate(59.91, 10.75) // Oslo
         zoomLevel: 14
+	urlDebug: true
         MapboxMapGestureArea {
             id: mouseArea
             map: map
